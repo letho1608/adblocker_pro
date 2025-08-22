@@ -86,7 +86,6 @@ After installation, the extension will request the following permissions:
 - **Access to all sites** - To block ads on all websites
 - **Read and change site data** - To filter content
 - **Storage** - To save settings and filter lists
-- **Cookies** - To manage cookies (optional)
 
 ## 🎮 Usage
 
@@ -98,13 +97,7 @@ After installation, the extension will request the following permissions:
 ### **Filtering Modes**
 1. **Basic Mode** - Basic ad blocking
 2. **Optimal Mode** - Balance between performance and security
-3. **Complete Mode** - Maximum blocking, comprehensive protection
-
-### **Customization**
-- Click extension icon to open popup
-- Choose appropriate filtering mode
-- Add sites to whitelist if needed
-- Customize filter rules in Developer mode
+3. **Complete Mode** - Maximum blocking, comprehensive protection (default)
 
 
 ## 📊 Performance
@@ -119,7 +112,6 @@ After installation, the extension will request the following permissions:
 - **EasyList**: 50,000+ rules
 - **EasyPrivacy**: 15,000+ privacy rules
 - **Malware domains**: 10,000+ malicious sites
-- **Social media filters**: Facebook, YouTube, Twitter
 
 ## 🛠️ Troubleshooting
 
